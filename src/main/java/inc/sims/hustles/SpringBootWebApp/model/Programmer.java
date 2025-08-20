@@ -19,4 +19,12 @@ public class Programmer {
     public void setProgrammerName(String programmerName) {
         this.programmerName = programmerName;
     }
+
+    @Override
+    public String toString() {
+        return "Programmer{" +
+                "programmerId=" + programmerId +
+                ", programmerName='" + programmerName + '\'' +
+                '}';
+    }
 }

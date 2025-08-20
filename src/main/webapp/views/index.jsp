@@ -5,13 +5,13 @@
     <link rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
     <body>
-        <h2>Simba Calculator</h2>
+        <h2>Add Programmer</h2>
 
-        <form action="add">
-            <label for="num1">Enter 1st number:</label>
-            <input id="num1" name="num1" type="number"><br>
-            <label for="num2">Enter 2nd number:</label>
-            <input id="num2" name="num2" type="number"><br>
+        <form action="add_programmer">
+            <label for="programmerId">Enter ID:</label>
+            <input id="programmerId" name="programmerId" type="text"><br>
+            <label for="programmerName">Enter Name:</label>
+            <input id="programmerName" name="programmerName" type="text"><br>
             <input type="submit" value="Submit">
         </form>
     </body>
